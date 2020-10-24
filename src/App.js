@@ -38,8 +38,8 @@ function App() {
   }, []) //condition
 
   const sendMessage = (event) => {
-    //all the logic to send meg goes here
-    event.preventDefault();
+    // * all the logic to send msg goes here
+    event.preventDefault(); //* prevent from instant refresh
 
     db.collection('messages').add({
       message: input,
