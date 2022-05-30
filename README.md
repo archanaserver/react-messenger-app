@@ -31,27 +31,4 @@ browser.
 
 - Material-UI
 
-- 
-- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-test
-xyznwkjs
-
 
