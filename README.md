@@ -25,7 +25,8 @@ browser.
 - ReactJS               
 
 
-- 
+
+
 -   
 - HTML/CSS
 - Firebase
