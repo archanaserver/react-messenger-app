@@ -1,4 +1,4 @@
-## 💬 Messenger Web Application 
+## Messenger Web Application 
 
 This project is full stack, fully-featured messenger application build with using ReactJS, Firebase & Material-UI.
 
