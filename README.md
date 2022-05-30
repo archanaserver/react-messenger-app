@@ -10,7 +10,7 @@ This project is full stack, fully-featured messenger application build with usin
 - Grabbed real-time dat abase with Firebase’s Firestore 🔥
 - Deployed it with Firebase Hosting 🌐
 
-## 🚀 Live Demo
+## Live Demo
 
 
 
