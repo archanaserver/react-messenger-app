@@ -16,7 +16,7 @@ browser.
 
     
 ## Technologies Used                
-                        
+                                    
         `                           
                                                                                                        
 - JavaScript                        
