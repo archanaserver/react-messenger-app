@@ -24,7 +24,8 @@ browser.
 1
 
 
--   
+
+
 - HTML/CSS
 - Firebase
 - 
