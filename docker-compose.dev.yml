@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  app:
+    build: ./development
+    container_name: app-dev
+    image: app-dev
+    volumes:
+      - ./src:/app/src
+    ports:
+      - 3000:3000
