@@ -1,20 +1,19 @@
-FROM node:16-alpine 
+# pull the official base image
+FROM node:16-alpine
 
-ENV NODE_ENV development
-
-# Add a work directory
+# set working direction
 WORKDIR /app
 
-# Cache and Install dependencies
-COPY package*.json ./
-COPY yarn.lock .
+# add `/app/node_modules/.bin` to $PATH
+ENV PATH /app/node_modules/.bin:$PATH
+
+# install application dependencies
+COPY package.json ./
+COPY package-lock.json ./
 RUN npm install
 
-# Copy app files
-COPY . .
+# add app
+COPY . ./
 
-# Expose port
-EXPOSE 3000
-
-# Start the app
-CMD [ "npm", "start" ]
+# start app
+CMD ["npm", "start"]
