@@ -59,10 +59,10 @@ jobs:
         env:
           API_TOKEN_GITHUB: ${{ secrets.SECRET_GITHUB_ACCESS_TOKEN }}
         with:
-          source_file: 'deployments/'
+          source_file: 'docker-compose.yml'
           destination_repo: 'archanaserver/action-workflow'
           destination_branch: 'pre-prod'
-          destination_folder: 'deployment'
+          destination_folder: 'docker-compose.yml'
           user_email: 'ak31960466@gmail.com'
           user_name: 'archanaserver'
           commit_message: 'repo update'
