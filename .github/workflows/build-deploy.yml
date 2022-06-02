@@ -38,7 +38,7 @@ jobs:
           context: ./
           file: ./Dockerfile
           push: true
-          tags: archanaserver/action-workflow:${{ steps.vars.outputs.sha_short }}
+          tags: arcops/sample:${{ steps.vars.outputs.sha_short }}
       - name: Generate CHANGELOG
         env:
           CHANGELOG_GITHUB_TOKEN: ${{ secrets.SECRET_GITHUB_ACCESS_TOKEN }}
