@@ -39,12 +39,6 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: arcops/sample:${{ steps.vars.outputs.sha_short }}
-      - name: Generate CHANGELOG
-        env:
-          CHANGELOG_GITHUB_TOKEN: ${{ secrets.SECRET_GITHUB_ACCESS_TOKEN }}
-        run: 
-          gem install github_changelog_generator
-          github_changelog_generator -u archanasever -p action-worflow
       - name: Commit files
         run: |
           git config --local user.email "$GITHUB_EMAIL"
@@ -61,7 +55,7 @@ jobs:
         with:
           source_file: 'docker-compose.yml'
           destination_repo: 'archanaserver/action-workflow'
-          destination_branch: 'pre-prod'
+          destination_branch: 'master'
           destination_folder: 'docker-compose.yml'
           user_email: 'ak31960466@gmail.com'
           user_name: 'archanaserver'
