@@ -39,15 +39,6 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: arcops/sample:${{ steps.vars.outputs.sha_short }}
-      - name: Commit files
-        run: |
-          git config --local user.email "$GITHUB_EMAIL"
-          git config --local user.name "$GITHUB_USERNAME"
-          git add .
-          git commit -m "update"
-        env:
-          GITHUB_USERNAME: archanaserver
-          GITHUB_EMAIL: ak13960466@gmail.com
       - name: Pushes file to another repository
         uses: dmnemec/copy_file_to_another_repo_action@main
         env:
