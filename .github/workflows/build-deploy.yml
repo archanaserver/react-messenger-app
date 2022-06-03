@@ -51,15 +51,9 @@ jobs:
           user_email: 'ak31960466@gmail.com'
           user_name: 'archanaserver'
           commit_message: 'repo update'
-      - name: Create pull request
-        uses: paygoc6/action-pull-request-another-repo@v1.0.1
-        env:
-          API_TOKEN_GITHUB: ${{ secrets.SECRET_GITHUB_ACCESS_TOKEN }}
+      - uses: actions/checkout@v2
+      - name: pull-request
+        uses: repo-sync/pull-request@v2
         with:
-          source_folder: 'deployments/'
-          destination_repo: 'archanaserver/action-workflow'
-          destination_folder: 'deployments/'
-          destination_base_branch: 'master'
-          destination_head_branch: 'pre-prod'
-          user_email: 'ak31960466@gmail.com'
-          user_name: 'archanaserver'
+          destination_branch: "pre-prod"
+          github_token: ${{ secrets.SECRET_GITHUB_ACCESS_TOKEN }}
