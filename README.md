@@ -33,7 +33,8 @@ browser.
 
 
 - HTML/CSS
-- 
+
+
 - Firebase
 - 
 - 
