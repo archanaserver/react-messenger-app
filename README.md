@@ -22,7 +22,7 @@ browser.
         `                                   
                                                                                                                                                      
 - JavaScript                                         
-- ReactJS               
+- ReactJS                   
 
 1                          
             
