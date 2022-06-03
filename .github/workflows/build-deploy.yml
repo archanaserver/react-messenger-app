@@ -43,12 +43,11 @@ jobs:
         run: |
           git config --local user.email "$GITHUB_EMAIL"
           git config --local user.name "$GITHUB_USERNAME"
-	  git add . 
+	        git add . 
           git commit -m "doc(CHANGELOG): update" -a
         env:
           GITHUB_USERNAME: archanaserver
           GITHUB_EMAIL: ak13960466@gmail.com
-
       - name: Pushes file to another repository
         uses: dmnemec/copy_file_to_another_repo_action@main
         env:
