@@ -5,7 +5,7 @@ note: using this for testing, rn!
 This project is full stack, fully-featured messenger application build with using ReactJS, Firebase & Material-UI.
 
                
-## What I have done in this project  
+## What I have done in this project       
 
 - Build a React Messenger App     
 - Used server-less cloud functions to process each of the messages sent     
