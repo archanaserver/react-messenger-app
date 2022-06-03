@@ -19,7 +19,7 @@ browser.
         
 ## Technologies Used                
                                                           
-        `                               
+        `                                   
                                                                                                                                                      
 - JavaScript                                     
 - ReactJS               
