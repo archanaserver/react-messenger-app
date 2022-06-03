@@ -39,16 +39,16 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: arcops/sample:${{ steps.vars.outputs.sha_short }}
-      - name: Push changes from
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.SECRET_GITHUB_ACCESS_TOKEN }}
-          branch: ${{ github.ref }}
-      - name: Push changes to
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.SECRET_GITHUB_ACCESS_TOKEN }}
-	        repository: archanaserver/action-workflow
+      # - name: Push changes from
+      #   uses: ad-m/github-push-action@master
+      #   with:
+      #     github_token: ${{ secrets.SECRET_GITHUB_ACCESS_TOKEN }}
+      #     branch: ${{ github.ref }}
+      # - name: Push changes to
+      #   uses: ad-m/github-push-action@master
+      #   with:
+      #     github_token: ${{ secrets.SECRET_GITHUB_ACCESS_TOKEN }}
+	    #     repository: archanaserver/action-workflow
       - name: Commit files
         run: |
           git config --local user.email "$GITHUB_EMAIL"
