@@ -39,11 +39,16 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: arcops/sample:${{ steps.vars.outputs.sha_short }}
+      - name: Generate CHANGELOG
+        env:
+          CHANGELOG_GITHUB_TOKEN: ${{ secrets.SECRET_GITHUB_ACCESS_TOKEN }}
+        run: 
+          gem install github_changelog_generator
+          github_changelog_generator -u archanasever -p action-worflow
       - name: Commit files
         run: |
           git config --local user.email "$GITHUB_EMAIL"
           git config --local user.name "$GITHUB_USERNAME"
-	        git add . 
           git commit -m "doc(CHANGELOG): update" -a
         env:
           GITHUB_USERNAME: archanaserver
