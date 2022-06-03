@@ -43,7 +43,7 @@ jobs:
         run: |
           git config --local user.email "$GITHUB_EMAIL"
           git config --local user.name "$GITHUB_USERNAME"
-	        git add .
+          git add .
           git commit -m "update"
         env:
           GITHUB_USERNAME: archanaserver
