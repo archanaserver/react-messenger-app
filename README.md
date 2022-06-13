@@ -27,7 +27,7 @@ browser.
         
                                                                                                                                                             
 - JavaScript                                          
-- 
+-   
 - ReactJS                   
 
 
