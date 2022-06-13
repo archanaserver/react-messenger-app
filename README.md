@@ -8,7 +8,7 @@ This project is full stack, fully-featured messenger application build with usin
 ## What I have done in this pro ject          
 dfghj
 - Build a React Messenger App     
-- Used server-less cloud functions to process each of the messages sent        q    
+- Used server-less cloud functions to process each of the messages sent           q    
 - Grabbed real-time dat abase        with Firebase’s Firestore          
 - Deployed it with Firebase Hostin    g                     
                   
