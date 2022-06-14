@@ -22,7 +22,7 @@ browser.
 - ReactJS                   
 - HTML/CSS
 - Firebase
-- Material-UI
+- Material-UI   
 
 
   
