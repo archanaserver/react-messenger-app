@@ -15,35 +15,13 @@ This project is full stack, fully-featured messenger application build with usin
 ## Live Demo                                                                                                                                                                                      
 Open [https://fb-messenger-clone-8c4da.web.app  ](https://fb-messenger-clone-8c4da. 
 web.app) to view it in your     
-browser.                          
+browser.                                
                     
-## Technologies Used                                      
-                             
-                dd
-        `                                           `          
-            
-            
-                                                                                                                                                                
+## Technologies Used   
 - JavaScript                                          
--   
 - ReactJS                   
-
-
-1                          
-            
-                        
-
-
-
 - HTML/CSS
-
-
 - Firebase
-- 
-- 
-
-
-
 - Material-UI
 
 
