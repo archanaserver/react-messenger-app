@@ -18,7 +18,7 @@ web.app) to view it in your
 browser.                                
                         
 ## Technologies Used   
-- JavaScript                                          
+- JavaScript                                              
 - ReactJS                       
 - HTML/CSS
 - Firebase
