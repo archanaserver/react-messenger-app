@@ -14,7 +14,7 @@ This project is full stack, fully-featured messenger application build with usin
 - Grabbed real-time dat abase        with Firebaese’s Firest  ore           
 -  
 - Deployed it with Firebase Hostin    g                             
-                                        
+                                          
 ## Live Demo                                                                                                                                                                                              
 Open [https://fb-messenger-clone-8c4da.web.app  ](https://fb-messenger-clone-8c4da. q
 web.app) to view it in your     
