@@ -10,7 +10,7 @@ This project is full stack, fully-featured messenger application build with usin
 - Build a React Messenger App         
 - Used server-less cloud functions to process each of the messages sent           q    
 - Grabbed real-time dat abase        with Firebaese’s Firestore          
-- Deployed it with Firebase Hostin    g                           
+- Deployed it with Firebase Hostin    g                             
                                       
 ## Live Demo                                                                                                                                                                                          
 Open [https://fb-messenger-clone-8c4da.web.app  ](https://fb-messenger-clone-8c4da. 
