@@ -19,6 +19,7 @@ web.app) to view it in your
 browser.                                  
                             
 ## Technologies Used          
+
 - JavaScript                                              
 - ReactJS                               
 - 
