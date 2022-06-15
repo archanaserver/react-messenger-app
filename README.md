@@ -25,7 +25,8 @@ xxzz
 - JavaScript                                              
 - ReactJS                               
 - 
-- 
+
+
 - HTML/CSS
 - Firebase
 - Material-UI   
