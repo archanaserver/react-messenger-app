@@ -9,7 +9,7 @@ This project is full stack, fully-featured messenger application build with usin
               
                 
 - Build a React Messenger App               
-- Used server-less cloud functions to process each of the messages s    
+- Used server-less cloud functions to process each of the messages s      
 - ent           q     
 - Grabbed real-time dat abase        with Firebaese’s Firest  ore           
 -         
