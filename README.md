@@ -30,7 +30,7 @@ xxzz      ff
 
 
 - HTML/CSS
-- Firebase
+- Firebaseq 
 - Material-UI   
 
 
